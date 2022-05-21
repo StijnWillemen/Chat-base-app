@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: auth
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         image: index.docker.io/stijnatdocker/dockerhubrepo:latest
         ports:
           - containerPort: 3000
