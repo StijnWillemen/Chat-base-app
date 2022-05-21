@@ -12,7 +12,7 @@ spec:
         app: auth
     spec:
       containers:
-    - name: auth
+      - name: auth
         imagePullPolicy: Always
         image: index.docker.io/stijnatdocker/dockerhubrepo:latest
         ports:
