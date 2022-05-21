@@ -14,7 +14,7 @@ spec:
       containers:
       - name: chat
         imagePullPolicy: Always
-        image: docker.io/stijnatdocker/dockerhubrepo:chat
+        image: index.docker.io/stijnatdocker/dockerhubrepo:chat
         ports:
           - containerPort: 3000
             name: http-web-svc
